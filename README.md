@@ -5,7 +5,6 @@ It will listen on the port specified by the --port option.
 
 # Requirements
 Python 3.0+
-Linux
 
 # Usage
 cybernet.py -t target_host -p port [options] 
