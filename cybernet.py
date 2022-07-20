@@ -2,24 +2,35 @@
 import pyfiglet
 import threading, subprocess, getopt, socket, sys
 
-toolName = pyfiglet.figlet_format("""################
+copyright = '''
+    copyright [2022] [Owusu Ansah Kwadwo]
 
-                                        CYBER NET
-                                        Author: Cyber PROGRAMMER
-#################
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
 
-""", font='banner')
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   '''
+
+
+toolName = pyfiglet.figlet_format("CYBER_NET_TOOL")
 version = 'version 1.0'
-Author = "#### Author: CYBER PROGRAMMER ####"
-print(toolName.center(50))
-print(version.rjust(33))
-print(Author.rjust(50))
+print(toolName, version)
+
+print("# Coded By: CYBER PROGRAMMER")
 print("")
 print("")
-print("""
-        \r\r\n	This script is used to create a server that can be used to run a command on a remote computer.
+print("")
+print("""\r\r\n For Educational purposes only!\n\n\n
+        \r\r\n	This script is used to create a server that can be used to run a command on a remote computer.\n\n
         \r\r\n	It will listen on the port specified by the --port option.\n\n
-            \n\n""")
+            \n\n\n""")
 
 listen = False
 command = False
