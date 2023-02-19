@@ -19,7 +19,7 @@ copyright = '''
    '''
 
 
-toolName = pyfiglet.figlet_format("CYBER_NET_TOOL")
+toolName = pyfiglet.figlet_format("CYBER_NET")
 version = 'version 1.0'
 print(toolName, version)
 
@@ -27,10 +27,10 @@ print("# Coded By: CYBER PROGRAMMER")
 print("")
 print("")
 print("")
-print("""\r\r\n For Educational purposes only!\n\n\n
-        \r\r\n	This script is used to create a server that can be used to run a command on a remote computer.\n\n
-        \r\r\n	It will listen on the port specified by the --port option.\n\n
-            \n\n\n""")
+print("""For Educational purposes only!\n\n
+This script is used to create a server that can be used to run a command on a remote computer.\n\n
+It will listen on the port specified by the --port option.\n\n
+""")
 
 listen = False
 command = False
